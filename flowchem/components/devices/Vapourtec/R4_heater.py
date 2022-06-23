@@ -22,7 +22,7 @@ except ImportError as e:
         "Cannot redistribute Vapourtec commands... Contact Vapourtec to get them!"
     ) from e
 
-
+# 
 class R4Heater(ActiveComponent):
     """R4 reactor heater control class."""
 
